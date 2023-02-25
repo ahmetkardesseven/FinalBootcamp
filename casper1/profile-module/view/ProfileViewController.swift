@@ -44,7 +44,7 @@ class ProfileViewController: UIViewController {
     func updateUI()
     {
         //White view UI
-        field.layer.cornerRadius = 70
+        field.layer.cornerRadius = 60
         field.layer.maskedCorners = [.layerMinXMinYCorner]
         
     }
