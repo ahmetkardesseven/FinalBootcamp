@@ -785,15 +785,15 @@
                                                 <rect key="frame" x="0.0" y="108.5" width="362" height="417.5"/>
                                                 <color key="separatorColor" name="ArkaPlan"/>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="settingCell" id="iaT-zX-sGa" customClass="SettingTableViewCell" customModule="casper1" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="50" width="362" height="10"/>
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="settingCell" rowHeight="39" id="iaT-zX-sGa" customClass="SettingTableViewCell" customModule="casper1" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="50" width="362" height="39"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iaT-zX-sGa" id="K7O-om-TSi">
-                                                            <rect key="frame" x="0.0" y="0.0" width="331.5" height="10"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="331.5" height="39"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfl-Eb-1pg">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="331.5" height="0.0"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="331.5" height="29"/>
                                                                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
                                                                     <color key="textColor" name="AccentColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -854,7 +854,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lyo-0B-tLO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6072" y="-1874"/>
+            <point key="canvasLocation" x="6071.0144927536239" y="-1874.3303571428571"/>
         </scene>
         <!--Custom Tab Bar Controller-->
         <scene sceneID="3Kk-bA-tp2">
