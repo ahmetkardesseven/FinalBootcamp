@@ -14,9 +14,7 @@ class Foods : Codable
     var yemek_fiyat : String?
     var yemek_resim_adi : String?
     
-    init(){
-        
-    }
+ 
     
     init(yemek_id : String, yemek_adi : String, yemek_fiyat : String, yemek_resim_adi : String )
     {
