@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E31208CA29AD4B8700BD9625 /* PassionsConflict-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E31208C929AD4B8700BD9625 /* PassionsConflict-Regular.ttf */; };
+		E31208CC29AD4BB600BD9625 /* Solitreo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E31208CB29AD4BB600BD9625 /* Solitreo-Regular.ttf */; };
 		E329086129A9EC8000511978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329086029A9EC8000511978 /* AppDelegate.swift */; };
 		E329086329A9EC8000511978 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E329086229A9EC8000511978 /* SceneDelegate.swift */; };
 		E329086829A9EC8000511978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E329086629A9EC8000511978 /* Main.storyboard */; };
@@ -59,6 +61,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E31208C929AD4B8700BD9625 /* PassionsConflict-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PassionsConflict-Regular.ttf"; sourceTree = "<group>"; };
+		E31208CB29AD4BB600BD9625 /* Solitreo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Solitreo-Regular.ttf"; sourceTree = "<group>"; };
 		E329085D29A9EC8000511978 /* casper1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = casper1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E329086029A9EC8000511978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E329086229A9EC8000511978 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E31208C829AD4B7800BD9625 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E31208CB29AD4BB600BD9625 /* Solitreo-Regular.ttf */,
+				E31208C929AD4B8700BD9625 /* PassionsConflict-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E329085429A9EC8000511978 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +160,7 @@
 				E329086029A9EC8000511978 /* AppDelegate.swift */,
 				E329086229A9EC8000511978 /* SceneDelegate.swift */,
 				E32908FB29AA1D9500511978 /* CustomTabBarController.swift */,
+				E31208C829AD4B7800BD9625 /* Fonts */,
 				E329087429A9EE2D00511978 /* profile-module */,
 				E329087B29A9F01E00511978 /* cart-module */,
 				E329087929A9EFFA00511978 /* fooddetail-module */,
@@ -584,8 +598,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31208CC29AD4BB600BD9625 /* Solitreo-Regular.ttf in Resources */,
 				E32908FE29AA1F7E00511978 /* GoogleService-Info.plist in Resources */,
 				E329086D29A9EC8300511978 /* LaunchScreen.storyboard in Resources */,
+				E31208CA29AD4B8700BD9625 /* PassionsConflict-Regular.ttf in Resources */,
 				E329086A29A9EC8300511978 /* Assets.xcassets in Resources */,
 				E329086829A9EC8000511978 /* Main.storyboard in Resources */,
 			);
