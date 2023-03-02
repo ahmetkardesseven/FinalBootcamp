@@ -1,18 +1,7 @@
 # FinalBootcamp
 In my final project for TM iOS Developer Bootcamp with Swift organized by techcareer.net, I made a food delivery app. It supports dark mode and Turkish language. Users can see the foods that are displayed in the home screen, can search foods and add foods to food basket, and also foods can be deleted from the basket.
 
- CollectionView 
- TableView
- Auto layout
- VIPER Pattern
- Web services
- NavigationController
- SearchBar
- Tabbar navigation
- Alomafire
- Firebase 
- Kingfisher
- Localization (Turkish / English - UK)
+ CollectionView, TableView, Auto layout, VIPER Pattern, Web services, NavigationController, SearchBar, Tabbar navigation, Alomafire, Firebase, Kingfisher, Localization (Turkish / English - UK)
 
 
 
