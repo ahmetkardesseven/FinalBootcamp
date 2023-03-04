@@ -73,7 +73,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Giriş Yap">
                                             <fontDescription key="titleFontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
-                                            <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                            <color key="baseForegroundColor" name="AccentColor"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="login:" destination="gWS-ow-b0B" eventType="touchUpInside" id="Scr-vJ-AAq"/>
@@ -174,7 +174,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Kayıt Ol">
                                             <fontDescription key="titleFontDescription" name="Poppins-Regular" family="Poppins" pointSize="20"/>
-                                            <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                            <color key="baseForegroundColor" name="AccentColor"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="register:" destination="GUs-JH-CaW" eventType="touchUpInside" id="pQx-PJ-giO"/>
@@ -237,12 +237,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="İstediğiniz yemekleri seçebilirsiniz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awg-cz-Zig">
                                 <rect key="frame" x="32" y="167" width="330" height="26"/>
                                 <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="22"/>
-                                <color key="textColor" name="yaziRenk2"/>
+                                <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="sSe-9j-LqD">
                                 <rect key="frame" x="32" y="279" width="350" height="524"/>
-                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <color key="backgroundColor" name="ArkaPlan"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Iib-s0-csZ">
                                     <size key="itemSize" width="174" height="161"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -296,7 +296,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="pZa-bT-QES" secondAttribute="bottom" constant="15" id="brB-cV-gf9"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <color key="backgroundColor" name="ArkaPlan"/>
                                         <size key="customSize" width="174" height="161"/>
                                         <connections>
                                             <outlet property="foodImageview" destination="EUr-vb-9VI" id="hi8-fL-iDr"/>
@@ -308,7 +308,8 @@
                             </collectionView>
                             <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Ara..." translatesAutoresizingMaskIntoConstraints="NO" id="sOI-8g-gin">
                                 <rect key="frame" x="20" y="203" width="374" height="56"/>
-                                <color key="tintColor" name="PrimaryColor"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <color key="barTintColor" name="AccentColor"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
                                     <string>Title</string>
@@ -333,7 +334,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOI-yT-kkM">
                                         <rect key="frame" x="42.5" y="0.0" width="23" height="35"/>
                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="30"/>
-                                        <color key="textColor" systemColor="systemPurpleColor"/>
+                                        <color key="textColor" systemColor="systemYellowColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbh-P6-4ec">
@@ -424,7 +425,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="cart" catalog="system" imagePlacement="trailing" title="Sepete Ekle" imagePadding="5">
                                             <fontDescription key="titleFontDescription" name="Poppins-Light" family="Poppins" pointSize="19"/>
-                                            <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                            <color key="baseForegroundColor" name="AccentColor"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="addCart:" destination="skG-9P-wX6" eventType="touchUpInside" id="GIC-EA-4ao"/>
@@ -456,7 +457,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Uv-iI-rKt">
                                         <rect key="frame" x="44.5" y="0.0" width="34.5" height="34.5"/>
                                         <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="20"/>
-                                        <color key="textColor" name="SecondyColor"/>
+                                        <color key="textColor" name="AccentColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T7-PB-ENd">
@@ -647,7 +648,7 @@
                                         <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Öde" imagePadding="5">
                                             <imageReference key="image" image="creditcard" catalog="system" symbolScale="large"/>
                                             <fontDescription key="titleFontDescription" name="Poppins-Light" family="Poppins" pointSize="19"/>
-                                            <color key="baseForegroundColor" systemColor="systemIndigoColor"/>
+                                            <color key="baseForegroundColor" name="AccentColor"/>
                                         </buttonConfiguration>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
@@ -668,7 +669,9 @@
                                 <rect key="frame" x="334" y="68" width="48" height="34"/>
                                 <color key="tintColor" name="PrimaryColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="trash" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="plain" image="trash" catalog="system">
+                                    <color key="baseForegroundColor" name="AccentColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="deleteCart:" destination="i4t-Wo-Xzs" eventType="touchUpInside" id="dIV-Af-tnR"/>
                                 </connections>
@@ -676,7 +679,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sepetim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQK-t9-HPb">
                                 <rect key="frame" x="28" y="68" width="63" height="20"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="17"/>
-                                <color key="textColor" name="PrimaryColor"/>
+                                <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sQe-fV-xPq" userLabel="Empty Cart Stack">
@@ -753,6 +756,7 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ak5-ev-EaO">
                                 <rect key="frame" x="32" y="110.5" width="350" height="129"/>
+                                <color key="tintColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="zfw-CH-eEF"/>
                                 </constraints>
@@ -882,7 +886,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="1dv-tN-5wJ"/>
-        <segue reference="a6A-Nf-OEq"/>
+        <segue reference="K8Y-NH-VDB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="416" height="416"/>
@@ -896,7 +900,7 @@
             <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ArkaPlan">
-            <color red="0.65299999713897705" green="0.9089999794960022" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.40700000524520874" green="0.31600001454353333" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="PrimaryColor">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
@@ -907,20 +911,11 @@
         <namedColor name="yaziRenk1">
             <color red="1" green="0.56800001859664917" blue="0.40700000524520874" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
-        <namedColor name="yaziRenk2">
-            <color red="1" green="0.15199999511241913" blue="0.99000000953674316" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -928,11 +923,11 @@
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
