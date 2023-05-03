@@ -31,9 +31,9 @@ class HomePageViewController: UIViewController {
         
         //Food collectionview UI
         let foodTasarim = UICollectionViewFlowLayout()
-        foodTasarim.sectionInset = UIEdgeInsets(top: 8, left: 3, bottom: 8, right: 3)
-        foodTasarim.minimumLineSpacing = 20
-        foodTasarim.minimumInteritemSpacing = 10
+        foodTasarim.sectionInset = UIEdgeInsets(top: 8, left: 2, bottom: 8, right: 2)
+        foodTasarim.minimumLineSpacing = 1
+        foodTasarim.minimumInteritemSpacing = 1
         let width = foodCollectionView.frame.size.width
         let cellWidht = (width - 30) / 2
         foodTasarim.itemSize = CGSize(width: cellWidht, height: cellWidht*1.1)
@@ -94,6 +94,9 @@ extension HomePageViewController : UISearchBarDelegate
         }
         self.foodCollectionView.reloadData()
     }
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+            searchBar.resignFirstResponder()
+        }
 }
 
 
